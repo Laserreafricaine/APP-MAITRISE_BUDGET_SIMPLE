@@ -1,4 +1,4 @@
-const CACHE_NAME = 'budget-maison-v1';
+const CACHE_NAME = 'budget-maison-mai2026';
 const FILES_TO_CACHE = [
   './',
   './index.html',
