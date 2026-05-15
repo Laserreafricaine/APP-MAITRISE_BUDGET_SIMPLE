@@ -1,10 +1,10 @@
-const CACHE_NAME = 'budget-maison-mai2026';
+const CACHE_NAME = 'budget-maison-mai2026-v2-saisie';
 const FILES_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', event => {
