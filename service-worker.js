@@ -1,4 +1,4 @@
-const CACHE_NAME = 'budget-maison-v20260516-2245-v35-regles-cagnotte';
+const CACHE_NAME = 'budget-maison-v36';
 const FILES_TO_CACHE = [
   './',
   './index.html',

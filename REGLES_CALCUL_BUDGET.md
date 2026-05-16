@@ -61,3 +61,12 @@ Si le total des budgets par catégorie dépasse le budget global, l’applicatio
 Le report de cagnotte est une réserve transférée au mois suivant. Il augmente l’enveloppe disponible du mois suivant, mais il ne doit pas être recalculé comme une nouvelle économie.
 
 Un même mois ne peut être reporté qu’une seule fois vers le mois suivant.
+
+
+## V36 — KPI, seuil 80 % et notifications
+
+- Le KPI d’accueil utilise l’enveloppe disponible du mois : budget global + report de cagnotte reçu.
+- Couleur du KPI et du camembert : vert avant 80 %, orange de 80 % à 100 %, rouge au-delà de 100 %.
+- Si le budget global est à 0 €, la cagnotte reste à 0 €, mais les dépenses et les dépassements par catégorie continuent d’être calculés.
+- Les dépassements par catégorie sont indépendants du budget global : ils dépendent uniquement du budget de la catégorie et des dépenses réelles de cette catégorie.
+- Les alertes visuelles respectent les réglages Notifications : alerte 80 %, alerte dépassement et rappel quotidien.
