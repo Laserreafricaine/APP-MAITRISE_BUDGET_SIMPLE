@@ -1,4 +1,4 @@
-# Règles de calcul budgétaire — V38
+# Règles de calcul budgétaire — V40
 
 ## 1. Budget global
 Le budget global est l’enveloppe principale du mois.
@@ -98,3 +98,18 @@ L’import JSON remplace les données actuelles uniquement après confirmation.
 
 Avant l’import, l’application crée une copie de secours dans le stockage local du navigateur.
 
+
+
+## V39 — lisibilité visuelle
+
+La V39 ne modifie pas les règles de calcul. Elle ajoute seulement des couleurs douces dans Analyse et Réglages afin de mieux différencier les cartes et les chapitres : vert pour la cagnotte, bleu pour la comparaison, orange pour le réel vs lissé, violet pour les catégories, vert pour la sauvegarde et orange pour les notifications.
+
+
+## V40 — ergonomie et saisie
+
+La V40 ne modifie pas les règles de calcul. Elle consolide l’usage :
+
+- Catégories et budgets est placé juste sous Devise dans Réglages.
+- La page détail d’une catégorie contient un bouton Modifier catégorie.
+- Chaque changement de page remet l’affichage en haut.
+- Le clavier personnalisé des budgets est renforcé pour mobile : touches plus grandes, espacement augmenté, cible affichée et protection contre les doubles appuis très rapprochés.
