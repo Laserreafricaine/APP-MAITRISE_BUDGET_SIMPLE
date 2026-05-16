@@ -1,4 +1,4 @@
-const CACHE_NAME = 'budget-maison-v20260516-2030-analyse-cagnotte';
+const CACHE_NAME = 'budget-maison-v20260516-2130-nav-calendar';
 const FILES_TO_CACHE = [
   './',
   './index.html',
