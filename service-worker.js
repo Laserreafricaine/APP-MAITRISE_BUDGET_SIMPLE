@@ -1,4 +1,4 @@
-const CACHE_NAME = 'budget-maison-v20260515-1515-confirm-keypad';
+const CACHE_NAME = 'budget-maison-v20260516-2030-analyse-cagnotte';
 const FILES_TO_CACHE = [
   './',
   './index.html',
