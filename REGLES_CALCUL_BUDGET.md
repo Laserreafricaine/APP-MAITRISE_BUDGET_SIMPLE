@@ -1,4 +1,4 @@
-# Règles de calcul budgétaire — V37
+# Règles de calcul budgétaire — V38
 
 ## 1. Budget global
 Le budget global est l’enveloppe principale du mois.
@@ -35,6 +35,18 @@ Dépassement catégorie = max(0, dépenses réelles de la catégorie - budget pr
 ```
 
 Les dépassements par catégorie sont indépendants du budget global. Le budget global ne doit pas bloquer les dépassements.
+
+Cas important : si le budget prévu d’une catégorie est à 0 € et qu’une dépense est saisie dans cette catégorie, la totalité de la dépense est considérée comme un dépassement.
+
+Exemple :
+
+```text
+Budget catégorie = 0 €
+Dépensé catégorie = 15 €
+Dépassement = 15 €
+```
+
+Un budget à 0 € ne doit pas être interprété comme une absence de contrôle. Il signifie : aucun montant n’est autorisé dans cette catégorie.
 
 ## 6. Alerte de cohérence budgétaire
 Si la somme des budgets par catégorie dépasse le budget global, l’application doit afficher une alerte.
